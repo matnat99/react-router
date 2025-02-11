@@ -5,13 +5,13 @@ export default function AboutUs() {
         <h1>Chi Siamo</h1>
         <div className="about-us-imgs">
           <div>
-            <img src="public/img/Pane.png" alt="Pane" />
+            <img src="img/Pane.png" alt="Pane" />
           </div>
           <div>
-            <img src="public/img/Torta.png" alt="Torta" />
+            <img src="img/Torta.png" alt="Torta" />
           </div>
           <div>
-            <img src="public/img/Ciambella.png" alt="Ciambella" />
+            <img src="img/Ciambella.png" alt="Ciambella" />
           </div>
         </div>
         <p>

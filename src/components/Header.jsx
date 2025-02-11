@@ -7,7 +7,7 @@ export default function Header() {
         <div className="header-container">
           <div>
             <div className="img-container">
-              <img src="public\img\Logo.jpeg" alt="Logo" />
+              <img src="img/Logo.jpeg" alt="Logo" />
             </div>
             <h1>DelizieInCasa</h1>
           </div>
