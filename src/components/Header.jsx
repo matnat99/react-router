@@ -4,9 +4,12 @@ export default function Header() {
   return (
     <header>
       <div className="container">
-        <div className="flex">
-          <div className="img-container">
-            <img src="public\img\Logo.jpeg" alt="Logo" />
+        <div className="header-container">
+          <div>
+            <div className="img-container">
+              <img src="public\img\Logo.jpeg" alt="Logo" />
+            </div>
+            <h1>DelizieInCasa</h1>
           </div>
           <nav>
             <ul>
@@ -14,10 +17,10 @@ export default function Header() {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink to="/about-us">About us</NavLink>
+                <NavLink to="/about-us">Chi siamo</NavLink>
               </li>
               <li>
-                <NavLink to="/feed">Feed</NavLink>
+                <NavLink to="/feed">Ricette</NavLink>
               </li>
             </ul>
           </nav>
